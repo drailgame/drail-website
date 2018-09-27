@@ -43,6 +43,7 @@ html {
 
 .hero-inner {
     width: 800px;
+    height: 400px;
 }
 
 .hero img {
@@ -58,6 +59,10 @@ html {
 }
 
 .btns {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     display: flex;
     justify-content: space-evenly;
     height: 100%;
@@ -122,12 +127,20 @@ main p {
 
 .promo-images {
     margin-top: 50px;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .promo-img {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     display: flex;
     flex-direction: column;
     margin-left: 0;
