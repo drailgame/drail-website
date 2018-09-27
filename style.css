@@ -1,0 +1,162 @@
+/* body, html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Hero image - header */
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#367e91+0,092233+100 */
+    background: #367e91; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #367e91 0%, #092233 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #367e91 0%,#092233 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #367e91 0%,#092233 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#367e91', endColorstr='#092233',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.hero-inner {
+    width: 800px;
+}
+
+.hero img {
+    margin-top: 0;
+    margin-bottom: 2em;
+    color: rgb(243, 102, 46);
+    width: 550px;
+}
+
+.hero h2 {
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.hero .btn {
+    align-self: flex-start;
+    width: 250px;
+
+    background-color: rgb(243, 102, 46);
+
+    padding: 1em;
+    margin-right: auto;
+    margin-left: auto;
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#btn-white {
+    background-color: white;
+    color: black;
+}
+
+/* Main - Body */
+
+main {
+    color: black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main h1 {
+    padding-top: 10px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+main span {
+    text-emphasis: none;
+    text-decoration: none;
+    color: rgb(243, 102, 46);;
+}
+
+main p {
+    width: 65%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.promo-images {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.promo-img {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    text-align: center;
+    width: 400px;
+}
+
+.promo-img h2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.promo-img p {
+    width: 100%;
+    text-align: left;
+}
+
+/* Main - Body */
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-size: 2em;
+}
